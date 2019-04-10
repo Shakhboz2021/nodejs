@@ -3,7 +3,7 @@ const yargs = require('yargs');
 const validator = require('validator');
 const chalk = require('chalk');
 
-yargs.version('1.1.0')
+yargs.version('1.1.0');
 
 yargs.command({
     command: 'add',
@@ -12,7 +12,7 @@ yargs.command({
         title: {
             describe: 'Note title',
             demandOption: true,
-            type: 'string'                        
+            type: 'string'
         },
         body: {
             describe: 'Note body',
@@ -20,9 +20,9 @@ yargs.command({
             type: 'string'
         }
     },
-    handler: function(argv) {
+    handler: function (argv) {
         console.log('Title: ' + argv.title + '\nBody: ' + argv.body);
-    }    
+    }
 });
 
 yargs.command({
@@ -36,12 +36,12 @@ yargs.command({
 yargs.command({
     command: 'list',
     describe: 'lists note names',
-    
-    handler: function() {
+
+    handler: function () {
         console.log('Listing all note names')
     }
-})
+});
 
-yargs.parse()
+yargs.parse();
 
 
