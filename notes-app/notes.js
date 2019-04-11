@@ -35,7 +35,7 @@ const listNoteNames = () => {
 const readNote = (title) => {
     allNotes = loadNotes();
     const selectedNote = allNotes.find(note => note.title === title);
-    debugger
+
 
     if (selectedNote) {
         console.log(chalk.bold.green(selectedNote.title));
