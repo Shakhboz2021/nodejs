@@ -5,16 +5,16 @@ const addr = process.argv[2];// accessing command line elements
 if (!addr) {
     console.log('Please, enter address!')
 } else {
-    geocode(addr, (error, data) => {
+    geocode(addr, (error, { latitude, longtitude, location }) => {
         if (error) {
             console.log(error);
         } else {
-            forecast(data.latitude, data.longitude, (error, dataForecast) => {// callback chaining
+            forecast(latitude, longtitude, (error, { temperature, chanceOfRain }) => {// callback chaining
                 if (error) {
                     console.log(error);
                 } else {
-                    console.log('It is currently ' + dataForecast.temperature + ' Celsius in ' + data.location);
-                    console.log('There is a ' + dataForecast.chanceOfRain + ' chance of rain in ' + data.location);
+                    console.log('It is currently ' + temperature + ' Celsius in ' + location);
+                    console.log('There is a ' + chanceOfRain + ' chance of rain in ' + location);
                 }
 
             });
