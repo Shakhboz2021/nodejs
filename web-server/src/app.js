@@ -41,6 +41,50 @@ app.get('/help', (req, res) => {
     })
 });
 
+app.get('/weather', (req, res) => {
+
+    if (!req.query.address) {
+       return res.send({
+            error: 'You should use "address" term'
+        })
+    }
+
+    res.send({
+        forecast: 'Rainy',
+        location: req.query.address
+    })
+});
+
+app.get('/products', (req, res) => {
+
+    if (!req.query.search) {
+        return res.send({
+            error: 'You should provide a search term'
+        })
+    }
+
+    console.log(req.query);
+
+
+   res.send({
+       products: []
+   })
+});
+
+app.get('/help/*', (req, res) => {
+   res.render('404', {
+       title: 'Help article not found',
+       name: 'Shakhboz'
+   })
+});
+
+app.get('*', (req, res) => {
+   res.render('404', {
+       title: 'Page Not Found!',
+       name: 'Shakhboz Tokhirov'
+   })
+});
+
 app.listen(4000, () => {
     console.log('Server is up on port 4000.')
 });
