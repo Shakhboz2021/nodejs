@@ -30,8 +30,8 @@ console.log(productName); // can change name of object property
 console.log(stock);
 console.log(rating);
 
-const transaction = (type, {label, stock}) => { // object property can be used as an argument
+const transaction = (type, {label = 'productName', stock = 0} = {}) => { // object property can be used as an argument
     console.log(type, label, stock);
 };
 
-transaction('order', product);
+transaction('order');
