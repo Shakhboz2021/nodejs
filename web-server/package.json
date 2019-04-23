@@ -4,14 +4,27 @@
   "description": "",
   "main": "index.js",
   "scripts": {
+<<<<<<< HEAD
     "start": "node src/app.js"
+=======
+    "start": "node src/app.js",
+    "dev": "nodemon src/app.js -e js,hbs"
+>>>>>>> 150a205a41979016370f66e3d4b559fca3acc882
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "dependencies": {
     "express": "^4.16.4",
+<<<<<<< HEAD
     "hbs": "^4.0.1",
     "request": "^2.88.0"
+=======
+    "hbs": "^4.0.4",
+    "request": "^2.88.0"
+  },
+  "devDependencies": {
+    "nodemon": "^1.18.11"
+>>>>>>> 150a205a41979016370f66e3d4b559fca3acc882
   }
 }
