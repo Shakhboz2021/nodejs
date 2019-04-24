@@ -2,9 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="1c051653-7eb7-4591-a7b9-d87fe0488384" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/jsLibraryMappings.xml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/task-manager/mongodb.js" beforeDir="false" afterPath="$PROJECT_DIR$/task-manager/mongodb.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/task-manager/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/task-manager/package.json" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/notes-app/node_modules/" />
     <ignored path="$PROJECT_DIR$/task-manager/node_modules/" />
@@ -24,8 +22,13 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/task-manager/mongodb.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="148">
-              <caret line="23" column="31" lean-forward="true" selection-start-line="23" selection-start-column="31" selection-end-line="23" selection-end-column="31" />
+            <state relative-caret-position="358">
+              <caret line="68" column="30" selection-start-line="68" selection-start-column="30" selection-end-line="68" selection-end-column="30" />
+              <folding>
+                <element signature="e#458#692#0" />
+                <element signature="e#707#891#0" />
+                <element signature="e#895#1266#0" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -103,12 +106,12 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1556083721848</updated>
-      <workItem from="1556083741999" duration="1824000" />
+      <workItem from="1556083741999" duration="5105000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="5539000" />
+    <option name="totallyTimeSpent" value="8820000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="208" y="1" width="1163" height="760" extended-state="0" />
@@ -128,7 +131,7 @@
       <window_info anchor="bottom" id="Cvs" order="8" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="9" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="10" />
-      <window_info active="true" anchor="bottom" id="Terminal" order="11" visible="true" weight="0.38602328" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="11" visible="true" weight="0.23627287" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -237,8 +240,13 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/task-manager/mongodb.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="148">
-          <caret line="23" column="31" lean-forward="true" selection-start-line="23" selection-start-column="31" selection-end-line="23" selection-end-column="31" />
+        <state relative-caret-position="358">
+          <caret line="68" column="30" selection-start-line="68" selection-start-column="30" selection-end-line="68" selection-end-column="30" />
+          <folding>
+            <element signature="e#458#692#0" />
+            <element signature="e#707#891#0" />
+            <element signature="e#895#1266#0" />
+          </folding>
         </state>
       </provider>
     </entry>
