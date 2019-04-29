@@ -4,7 +4,7 @@
 const MongoClient = mongodb.MongoClient;
 const ObjectId = mongodb.ObjectId;*/
 
-const { MongoClient, ObjectId } = require('mongodb');
+const {MongoClient, ObjectId} = require('mongodb');
 
 const connectionURL = 'mongodb://127.0.0.1/27017';
 const databaseName = 'task-manager';
@@ -34,24 +34,24 @@ MongoClient.connect(connectionURL, {'useNewUrlParser': true}, (error, client) =>
 
         console.log("Collection successfully dropped")
     });*/
-   /* db.collection('users').insertMany([
-         {
-             name: "Mirodil",
-             age: 23
-         }, {
-             name: "Suxrob",
-             age: 23
-         }, {
-             name: "Navruzbek",
-             age: 22
-         }
-     ], (error, result) => {
-         if (error) {
-             return console.log(error)
-         }
+    /* db.collection('users').insertMany([
+          {
+              name: "Mirodil",
+              age: 23
+          }, {
+              name: "Suxrob",
+              age: 23
+          }, {
+              name: "Navruzbek",
+              age: 22
+          }
+      ], (error, result) => {
+          if (error) {
+              return console.log(error)
+          }
 
-         console.log(result.ops)
-     });*/
+          console.log(result.ops)
+      });*/
 
     /*db.collection('tasks').insertMany([
         {
@@ -71,4 +71,28 @@ MongoClient.connect(connectionURL, {'useNewUrlParser': true}, (error, client) =>
 
         console.log(result.ops)
     })*/
+
+    /* db.collection('users').updateOne({
+         _id: new ObjectId('5cc15af2f5ad1a06e5e3280c')
+     }, {
+         $set: {
+             name: "Shoxsanam"
+         }
+     }).then(result => {
+         console.log(result)
+     }).catch(error => {
+         console.log(error)
+     });*/
+
+    db.collection('tasks').updateMany({
+        completed: false
+    }, {
+        $set: {
+            completed: true
+        }
+    }).then(result => {
+        console.log(result)
+    }).catch(error => {
+        console.log(error)
+    })
 });
