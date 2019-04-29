@@ -1,7 +1,10 @@
 //CRUD create read update delete
 
-const mongodb = require('mongodb');
+/*const mongodb = require('mongodb');
 const MongoClient = mongodb.MongoClient;
+const ObjectId = mongodb.ObjectId;*/
+
+const { MongoClient, ObjectId } = require('mongodb');
 
 const connectionURL = 'mongodb://127.0.0.1/27017';
 const databaseName = 'task-manager';
@@ -31,7 +34,7 @@ MongoClient.connect(connectionURL, {'useNewUrlParser': true}, (error, client) =>
 
         console.log("Collection successfully dropped")
     });*/
-    /* db.collection('users').insertMany([
+   /* db.collection('users').insertMany([
          {
              name: "Mirodil",
              age: 23
@@ -48,9 +51,9 @@ MongoClient.connect(connectionURL, {'useNewUrlParser': true}, (error, client) =>
          }
 
          console.log(result.ops)
-     })*/
+     });*/
 
-    db.collection('tasks').insertMany([
+    /*db.collection('tasks').insertMany([
         {
             description: 'Make login page',
             completed: true
@@ -67,5 +70,5 @@ MongoClient.connect(connectionURL, {'useNewUrlParser': true}, (error, client) =>
         }
 
         console.log(result.ops)
-    })
+    })*/
 });
