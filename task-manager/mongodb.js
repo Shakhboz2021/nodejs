@@ -84,7 +84,7 @@ MongoClient.connect(connectionURL, {'useNewUrlParser': true}, (error, client) =>
          console.log(error)
      });*/
 
-    db.collection('tasks').updateMany({
+   /* db.collection('tasks').updateMany({
         completed: false
     }, {
         $set: {
@@ -94,5 +94,13 @@ MongoClient.connect(connectionURL, {'useNewUrlParser': true}, (error, client) =>
         console.log(result)
     }).catch(error => {
         console.log(error)
-    })
+    })*/
+
+   db.collection('tasks').deleteOne({
+       description: "Make login page"
+   }).then(result => {
+       console.log(result)
+   }).catch(error => {
+       console.log(error)
+   })
 });
