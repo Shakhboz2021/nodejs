@@ -2,8 +2,7 @@
 const express = require('express');
 require('./db/mongoose'); // connect to the database from mongoose.js
 const User = require('./models/user');
-
-
+const Task = require('./models/task');
 
 
 const app = express();
@@ -19,6 +18,17 @@ app.post('/users', (req, res) => {
     }).catch((error) => {
         res.status(400).send(error.message);
     });
+});
+
+app.post('/tasks', (req, res) => {
+    const task = new Task(req.body);
+
+    task.save().then(() => {
+        res.send(task)
+    }).catch((error) => {
+        res.status(400);
+        res.send(error.message)
+    })
 });
 
 app.listen(port, () => {// starting server

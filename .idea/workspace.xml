@@ -2,12 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="1c051653-7eb7-4591-a7b9-d87fe0488384" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/task-manager/src/index.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/task-manager/src/models/user.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/task-manager/src/models/task.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/task-manager/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/task-manager/package-lock.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/task-manager/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/task-manager/package.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/task-manager/src/db/mongoose.js" beforeDir="false" afterPath="$PROJECT_DIR$/task-manager/src/db/mongoose.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/task-manager/src/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/task-manager/src/index.js" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/notes-app/node_modules/" />
     <ignored path="$PROJECT_DIR$/task-manager/node_modules/" />
@@ -27,8 +25,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/task-manager/src/db/mongoose.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="92">
-              <caret line="21" selection-start-line="21" selection-end-line="21" />
+            <state relative-caret-position="180">
+              <caret line="9" selection-start-line="9" selection-end-line="9" />
             </state>
           </provider>
         </entry>
@@ -36,8 +34,20 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/task-manager/src/index.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="172">
-              <caret line="19" column="44" selection-start-line="19" selection-start-column="44" selection-end-line="19" selection-end-column="44" />
+            <state relative-caret-position="200">
+              <caret line="18" column="44" lean-forward="true" selection-start-line="18" selection-start-column="44" selection-end-line="18" selection-end-column="44" />
+              <folding>
+                <element signature="e#713#727#0" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/task-manager/src/models/task.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="280">
+              <caret line="14" column="21" selection-start-line="14" selection-start-column="21" selection-end-line="14" selection-end-column="21" />
             </state>
           </provider>
         </entry>
@@ -45,8 +55,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/task-manager/src/models/user.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="480">
-              <caret line="42" selection-start-line="42" selection-end-line="42" />
+            <state>
+              <caret selection-end-line="1" selection-end-column="39" />
             </state>
           </provider>
         </entry>
@@ -69,6 +79,7 @@
         <option value="$PROJECT_DIR$/task-manager/package.json" />
         <option value="$PROJECT_DIR$/task-manager/src/models/user.js" />
         <option value="$PROJECT_DIR$/task-manager/src/db/mongoose.js" />
+        <option value="$PROJECT_DIR$/task-manager/src/models/task.js" />
         <option value="$PROJECT_DIR$/task-manager/src/index.js" />
       </list>
     </option>
@@ -102,6 +113,13 @@
               <item name="NodeJS" type="462c0819:PsiDirectoryNode" />
               <item name="task-manager" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="NodeJS" type="b2602c69:ProjectViewProjectNode" />
+              <item name="NodeJS" type="462c0819:PsiDirectoryNode" />
+              <item name="task-manager" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="models" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -144,7 +162,7 @@
       <workItem from="1556254683998" duration="1635000" />
       <workItem from="1556602210451" duration="2457000" />
       <workItem from="1556686126087" duration="843000" />
-      <workItem from="1556772135960" duration="10292000" />
+      <workItem from="1556772135960" duration="11839000" />
     </task>
     <task id="LOCAL-00001" summary="vv">
       <created>1556789510609</created>
@@ -157,14 +175,14 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="32850000" />
+    <option name="totallyTimeSpent" value="34397000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="205" y="0" width="1163" height="760" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info id="Favorites" order="0" side_tool="true" />
-      <window_info active="true" content_ui="combo" id="Project" order="1" visible="true" weight="0.19129646" />
+      <window_info content_ui="combo" id="Project" order="1" visible="true" weight="0.19129646" />
       <window_info id="Structure" order="2" side_tool="true" weight="0.25" />
       <window_info anchor="bottom" id="Messages" order="0" weight="0.3294509" />
       <window_info anchor="bottom" id="Event Log" order="1" side_tool="true" weight="0.32991454" />
@@ -177,7 +195,7 @@
       <window_info anchor="bottom" id="Cvs" order="8" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="9" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="10" />
-      <window_info anchor="bottom" id="Terminal" order="11" visible="true" weight="0.41264558" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="11" visible="true" weight="0.41264558" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -392,22 +410,32 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/task-manager/src/db/mongoose.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="92">
-          <caret line="21" selection-start-line="21" selection-end-line="21" />
+        <state relative-caret-position="180">
+          <caret line="9" selection-start-line="9" selection-end-line="9" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/task-manager/src/models/user.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="480">
-          <caret line="42" selection-start-line="42" selection-end-line="42" />
+        <state>
+          <caret selection-end-line="1" selection-end-column="39" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/task-manager/src/models/task.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="280">
+          <caret line="14" column="21" selection-start-line="14" selection-start-column="21" selection-end-line="14" selection-end-column="21" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/task-manager/src/index.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="172">
-          <caret line="19" column="44" selection-start-line="19" selection-start-column="44" selection-end-line="19" selection-end-column="44" />
+        <state relative-caret-position="200">
+          <caret line="18" column="44" lean-forward="true" selection-start-line="18" selection-start-column="44" selection-end-line="18" selection-end-column="44" />
+          <folding>
+            <element signature="e#713#727#0" />
+          </folding>
         </state>
       </provider>
     </entry>
