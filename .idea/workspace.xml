@@ -2,6 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="1c051653-7eb7-4591-a7b9-d87fe0488384" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/task-manager/src/routers/task.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/task-manager/src/routers/user.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/task-manager/src/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/task-manager/src/index.js" afterDir="false" />
     </list>
@@ -23,15 +25,39 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/task-manager/src/index.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="316">
-              <caret line="200" column="3" lean-forward="true" selection-start-line="200" selection-start-column="3" selection-end-line="200" selection-end-column="3" />
+            <state relative-caret-position="222">
+              <caret line="15" column="3" lean-forward="true" selection-start-line="15" selection-start-column="3" selection-end-line="15" selection-end-column="3" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/task-manager/src/routers/task.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="200">
+              <caret line="95" column="24" selection-start-line="95" selection-start-column="24" selection-end-line="95" selection-end-column="24" />
               <folding>
-                <element signature="e#436#620#0" />
-                <element signature="e#655#808#0" />
-                <element signature="e#848#1108#0" />
-                <element signature="e#1145#1340#0" />
-                <element signature="e#1375#1528#0" />
-                <element signature="e#1567#1804#0" />
+                <element signature="e#153#494#0" />
+                <element signature="e#535#833#0" />
+                <element signature="e#878#1343#0" />
+                <element signature="e#1390#1983#0" />
+                <element signature="e#2031#2320#0" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/task-manager/src/routers/user.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="316">
+              <caret line="103" column="24" lean-forward="true" selection-start-line="103" selection-start-column="24" selection-end-line="103" selection-end-column="24" />
+              <folding>
+                <element signature="e#154#483#0" />
+                <element signature="e#524#828#0" />
+                <element signature="e#874#1362#0" />
+                <element signature="e#1440#2105#0" />
+                <element signature="e#2154#2432#0" />
               </folding>
             </state>
           </provider>
@@ -60,6 +86,8 @@
         <option value="$PROJECT_DIR$/playground/9-async-await.js" />
         <option value="$PROJECT_DIR$/task-manager/playground/promise-chaining.js" />
         <option value="$PROJECT_DIR$/task-manager/playground/promise-chaining-2.js" />
+        <option value="$PROJECT_DIR$/task-manager/src/routers/task.js" />
+        <option value="$PROJECT_DIR$/task-manager/src/routers/user.js" />
         <option value="$PROJECT_DIR$/task-manager/src/index.js" />
       </list>
     </option>
@@ -98,6 +126,13 @@
               <item name="NodeJS" type="462c0819:PsiDirectoryNode" />
               <item name="task-manager" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="NodeJS" type="b2602c69:ProjectViewProjectNode" />
+              <item name="NodeJS" type="462c0819:PsiDirectoryNode" />
+              <item name="task-manager" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="routers" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -141,7 +176,7 @@
       <workItem from="1556602210451" duration="2457000" />
       <workItem from="1556686126087" duration="843000" />
       <workItem from="1556772135960" duration="16526000" />
-      <workItem from="1556858163223" duration="14102000" />
+      <workItem from="1556858163223" duration="15715000" />
     </task>
     <task id="LOCAL-00001" summary="vv">
       <created>1556789510609</created>
@@ -154,14 +189,14 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="53186000" />
+    <option name="totallyTimeSpent" value="54799000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="205" y="0" width="1163" height="760" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info id="Favorites" order="0" side_tool="true" />
-      <window_info content_ui="combo" id="Project" order="1" weight="0.19129646" />
+      <window_info active="true" content_ui="combo" id="Project" order="1" visible="true" weight="0.19129646" />
       <window_info id="Structure" order="2" side_tool="true" weight="0.25" />
       <window_info anchor="bottom" id="Messages" order="0" weight="0.3294509" />
       <window_info anchor="bottom" id="Event Log" order="1" side_tool="true" weight="0.32991454" />
@@ -174,7 +209,7 @@
       <window_info anchor="bottom" id="Cvs" order="8" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="9" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="10" />
-      <window_info active="true" anchor="bottom" id="Terminal" order="11" visible="true" weight="0.3061564" />
+      <window_info anchor="bottom" id="Terminal" order="11" visible="true" weight="0.3061564" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -436,18 +471,38 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/task-manager/src/index.js">
+    <entry file="file://$PROJECT_DIR$/task-manager/src/routers/task.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="200">
+          <caret line="95" column="24" selection-start-line="95" selection-start-column="24" selection-end-line="95" selection-end-column="24" />
+          <folding>
+            <element signature="e#153#494#0" />
+            <element signature="e#535#833#0" />
+            <element signature="e#878#1343#0" />
+            <element signature="e#1390#1983#0" />
+            <element signature="e#2031#2320#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/task-manager/src/routers/user.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="316">
-          <caret line="200" column="3" lean-forward="true" selection-start-line="200" selection-start-column="3" selection-end-line="200" selection-end-column="3" />
+          <caret line="103" column="24" lean-forward="true" selection-start-line="103" selection-start-column="24" selection-end-line="103" selection-end-column="24" />
           <folding>
-            <element signature="e#436#620#0" />
-            <element signature="e#655#808#0" />
-            <element signature="e#848#1108#0" />
-            <element signature="e#1145#1340#0" />
-            <element signature="e#1375#1528#0" />
-            <element signature="e#1567#1804#0" />
+            <element signature="e#154#483#0" />
+            <element signature="e#524#828#0" />
+            <element signature="e#874#1362#0" />
+            <element signature="e#1440#2105#0" />
+            <element signature="e#2154#2432#0" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/task-manager/src/index.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="222">
+          <caret line="15" column="3" lean-forward="true" selection-start-line="15" selection-start-column="3" selection-end-line="15" selection-end-column="3" />
         </state>
       </provider>
     </entry>
