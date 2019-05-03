@@ -1,19 +1,30 @@
-const doWorkPromise = new Promise((resolve, reject) => {
-    setTimeout(() => {
-        reject('Network error!');
-        resolve([1, 2, 3]);
-    }, 2000)
-});
+const add = (a, b) => {
+    return new Promise((resolve, reject) => {
+        setTimeout(() => {
+            resolve(a + b)
+        }, 2000)
+    })
+};
 
-doWorkPromise.then(result => {
-    console.log(result)
+/*
+add(1, 3).then(sum => {
+    console.log(sum);
+    add(sum, 5).then(sum2 => {
+        console.log(sum2)
+    }).catch(error => {
+        console.log(error)
+    })
 }).catch(error => {
-    console.log(error);
+    console.log(error)
+});*/
+
+//Promise chaining
+
+add(1, 2).then(sum => {
+    console.log(sum);
+    return add(sum, 4)
+}).then(sum2 => {
+    console.log(sum2)
+}).catch(error => {
+    console.log(error)
 });
-//
-//                                 fulfilled
-//                             /
-// Promise      --pending -->
-//                             \
-//                                 rejected
-//
